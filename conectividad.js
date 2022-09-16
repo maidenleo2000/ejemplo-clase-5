@@ -6,7 +6,7 @@ const sinConexion = () =>{
     console.error('No hay conexión');
     enviar.setAttribute('disabled', 'true');
 }
-
+let cambioCommit2 = "cambios realizados commit 2"
 const conConexion = () =>{
     console.warn('Volvio la conexión');
     enviar.removeAttribute('disabled');
