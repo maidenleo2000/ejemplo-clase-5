@@ -1,5 +1,6 @@
 
 //Detecta si hay conexion o no y deshabilita el boton enviar agregando el atributo disabled al tag
+//cambios commit 1
 
 const sinConexion = () =>{
     console.error('No hay conexión');
